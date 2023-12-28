@@ -29,6 +29,8 @@ Link: [Tokyo Olympics 2020](https://www.kaggle.com/datasets/arjunprasadsarkhel/2
     1. For data exploration and data processing
 4. Synapse Analytics
     1. Data warehouse to analyse and process data for BI and analytics
+5. Tableau
+    1. Data visualisation  
 
 
 ## Process
