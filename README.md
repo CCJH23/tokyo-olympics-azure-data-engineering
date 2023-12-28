@@ -21,29 +21,29 @@ Link: [Tokyo Olympics 2020](https://www.kaggle.com/datasets/arjunprasadsarkhel/2
 
 ## Process
 1. Create storage accounts
-- Get storage account so that I can store files on Azure, specifically in the containers data storage
-- Create 2 folders, raw-data and transformed-data
+    1. Get storage account so that I can store files on Azure, specifically in the containers data storage
+    2. Create 2 folders, raw-data and transformed-data
 
 2. Data Source
-- Get dataset from Kaggle
-- Upload to Github
-- Get the raw link of the dataset from Github
+    1. Get dataset from Kaggle
+    2. Upload to Github
+    3. Get the raw link of the dataset from Github
 
 3. Data Ingestion
-- Create data pipeline in Azure Data Factory
-- To copy data from Github raw links and store in raw-data folder in data lake  
+    1. Create data pipeline in Azure Data Factory
+    2. To copy data from Github raw links and store in raw-data folder in data lake  
 
 4. Data Transformation
-- Create and deploy a Azure Databricks Workspace
-- Create a compute where the Spark code will run on
-- Write transformation code on Databricks notebook
-    - Connect Databricks to data lake so that you can access the data in the notebook and do transformations
-        - Create an app in App Registration to get client id, tenant id and secret id for Databricks to use to connect to the data lake
-        - Mount data lake to Databricks
-        - Give the app you created earlier the blob storage permission in the data lake for the app (Databricks) to access the data lake
-    - Read the datasets and cast the columns into proper format (e.g. int)
-    - Write and store the transformed data in transformed-data folder in data lake 
+    1. Create and deploy a Azure Databricks Workspace
+    2. Create a compute where the Spark code will run on
+    3. Write transformation code on Databricks notebook
+        1. Connect Databricks to data lake so that you can access the data in the notebook and do transformations
+        2. Create an app in App Registration to get client id, tenant id and secret id for Databricks to use to connect to the data lake
+        3. Mount data lake to Databricks
+        4. Give the app you created earlier the blob storage permission in the data lake for the app (Databricks) to access the data lake
+        5. Read the datasets and cast the columns into proper format (e.g. int)
+        6. Write and store the transformed data in transformed-data folder in data lake 
 
 5. Data Analytics
-- Create tables from the datasets in transformed-data folder in data lake
-- Do data analytics using SQL
+    1. Create tables from the datasets in transformed-data folder in data lake
+    2. Do data analytics using SQL
