@@ -61,3 +61,4 @@ Link: [Tokyo Olympics 2020](https://www.kaggle.com/datasets/arjunprasadsarkhel/2
 5. Data Analytics
     1. Create tables from the datasets in transformed-data folder in data lake
     2. Do data analytics using SQL
+    3. Do data visualisation using Tableau
