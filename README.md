@@ -10,8 +10,8 @@ Data Engineering Project using Azure on Tokyo Olympics 2020
 Link: [Tokyo Olympics 2020](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
 
 ## Data Visualisation
-### Top Countries Medals Count
-![Medals](https://github.com/CCJH23/tokyo-olympics-azure-data-engineering/blob/809ac4500e344e53fd2d95990c252b7f3629dcb7/img/Medals.png)
+### Countries with Highest Number of Medals for Each Medal Category
+![Medals](https://github.com/CCJH23/tokyo-olympics-azure-data-engineering/blob/5b949ff9169ddb919585be7cd06c76b74190f972/img/Medals2.png)
 
 ### Proportion of Males per Sport
 ![Proportion of Males Per Sport](https://github.com/CCJH23/tokyo-olympics-azure-data-engineering/blob/46e99b37919a4eae6196934d1b8c43c248a7937c/img/Proportion%20of%20Males%20Per%20Sport.png)
