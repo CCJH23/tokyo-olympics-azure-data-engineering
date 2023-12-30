@@ -21,13 +21,13 @@ Link: [Tokyo Olympics 2020](https://www.kaggle.com/datasets/arjunprasadsarkhel/2
 
 
 ## Technologies used
-1. Data Factory
+1. Azure Data Factory 
     1. Create and manage data pipelines
-2. Data Lake Gen 2
+2. Azure Data Lake Gen 2
     1. Store structured or unstructured files
 3. Azure Databricks
     1. For data exploration and data processing
-4. Synapse Analytics
+4. Azure Synapse Analytics
     1. Data warehouse to analyse and process data for BI and analytics
 5. Tableau
     1. Data visualisation  
