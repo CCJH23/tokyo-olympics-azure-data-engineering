@@ -11,7 +11,7 @@ Link: [Tokyo Olympics 2020](https://www.kaggle.com/datasets/arjunprasadsarkhel/2
 
 ## Data Visualisation
 ### Top Countries Medals Count
-![Medals](https://github.com/CCJH23/tokyo-olympics-azure-data-engineering/blob/b31ea0c374a8711023d813389ffe54dfa143881b/img/Medals.png)
+![Medals](https://github.com/CCJH23/tokyo-olympics-azure-data-engineering/blob/809ac4500e344e53fd2d95990c252b7f3629dcb7/img/Medals.png)
 
 ### Proportion of Males per Sport
 ![Proportion of Males Per Sport](https://github.com/CCJH23/tokyo-olympics-azure-data-engineering/blob/46e99b37919a4eae6196934d1b8c43c248a7937c/img/Proportion%20of%20Males%20Per%20Sport.png)
